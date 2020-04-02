@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Options | plugin-photo-swiper</title>
+    <meta name="description" content="基于Vue的图片预览插件">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="shortcut icon" href="/vue-photo-swiper-docs/favicon.ico">
+  <meta name="referrer" content="no-referrer">
+    
+    <link rel="preload" href="/vue-photo-swiper-docs/assets/css/0.styles.db90ddcc.css" as="style"><link rel="preload" href="/vue-photo-swiper-docs/assets/js/app.b4484480.js" as="script"><link rel="preload" href="/vue-photo-swiper-docs/assets/js/2.eacc73ec.js" as="script"><link rel="preload" href="/vue-photo-swiper-docs/assets/js/9.a882c025.js" as="script"><link rel="preload" href="/vue-photo-swiper-docs/assets/js/3.532ee173.js" as="script"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/10.7d23eb21.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/11.c930c5d8.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/12.08fdbd93.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/13.d09a2b5e.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/14.71dfaea7.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/15.3ff80b8d.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/4.d40d2466.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/5.def6542c.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/6.d204557f.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/7.d8f30f85.js"><link rel="prefetch" href="/vue-photo-swiper-docs/assets/js/8.c577d490.js">
+    <link rel="stylesheet" href="/vue-photo-swiper-docs/assets/css/0.styles.db90ddcc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue-photo-swiper-docs/" class="home-link router-link-active"><!----> <span class="site-name">plugin-photo-swiper</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vue-photo-swiper-docs/API/" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/vue-photo-swiper-docs/Option/" class="nav-link router-link-exact-active router-link-active">
+  Option
+</a></div><div class="nav-item"><a href="/vue-photo-swiper-docs/快速上手/" class="nav-link">
+  快速上手
+</a></div> <a href="https://github.com/starfishing/vue-photo-swiper" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vue-photo-swiper-docs/API/" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/vue-photo-swiper-docs/Option/" class="nav-link router-link-exact-active router-link-active">
+  Option
+</a></div><div class="nav-item"><a href="/vue-photo-swiper-docs/快速上手/" class="nav-link">
+  快速上手
+</a></div> <a href="https://github.com/starfishing/vue-photo-swiper" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="options"><a href="#options" class="header-anchor">#</a> Options</h1> <h3 id="index-integer-0"><a href="#index-integer-0" class="header-anchor">#</a> <code>index</code> <code>integer</code> <code>0</code></h3> <p>开始幻灯片索引。<code>0</code>是第一张幻灯片。必须为整数，而不是字符串。</p> <h3 id="getthumbboundsfn-function-undefined"><a href="#getthumbboundsfn-function-undefined" class="header-anchor">#</a> <code>getThumbBoundsFn</code> <code>function</code> <code>undefined</code></h3> <p>函数应返回一个对象，该对象的坐标将从其初始放大动画开始（或缩小动画结束）开始。</p> <p>对象应包含三个属性：（<code>x</code>相对于文档的 X 位置），<code>y</code>（相对于文档的 Y 位置），<code>w</code>（元素的宽度）。高度将根据大图像的尺寸自动计算。例如，如果您返回<code>{x:0,y:0,w:50}</code>缩放动画，则动画将从页面的左上角开始。</p> <p>函数有一个参数- <code>index</code>正在打开或关闭的项目。</p> <p>在非模式模式下，应从<code>x</code>和中减去模板相对于视口的位置<code>y</code>。查看<a href="https://photoswipe.com/documentation/faq.html#inline-gallery" target="_blank" rel="noopener noreferrer">常见问题<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>以获取更多信息。</p> <p>计算缩略图位置的示例：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token function-variable function">getThumbBoundsFn</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">index</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token comment">// find thumbnail element</span>
+    <span class="token keyword">var</span> thumbnail <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'.my-gallery-thumbnails'</span><span class="token punctuation">)</span><span class="token punctuation">[</span>index<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// get window scroll Y</span>
+    <span class="token keyword">var</span> pageYScroll <span class="token operator">=</span> window<span class="token punctuation">.</span>pageYOffset <span class="token operator">||</span> document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>scrollTop<span class="token punctuation">;</span>
+    <span class="token comment">// optionally get horizontal scroll</span>
+
+    <span class="token comment">// get position of element relative to viewport</span>
+    <span class="token keyword">var</span> rect <span class="token operator">=</span> thumbnail<span class="token punctuation">.</span><span class="token function">getBoundingClientRect</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// w = width</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>x<span class="token operator">:</span>rect<span class="token punctuation">.</span>left<span class="token punctuation">,</span> y<span class="token operator">:</span>rect<span class="token punctuation">.</span>top <span class="token operator">+</span> pageYScroll<span class="token punctuation">,</span> w<span class="token operator">:</span>rect<span class="token punctuation">.</span>width<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+
+    <span class="token comment">// Good guide on how to get element coordinates:</span>
+    <span class="token comment">// http://javascript.info/tutorial/coordinates</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>如果小缩略图的尺寸与大图像的尺寸不匹配，请考虑启用缩放+淡入淡出过渡。您可以通过添加选项来做到这一点<code>showHideOpacity:true</code>（尝试将其添加到<a href="http://codepen.io/dimsemenov/pen/ZYbPJM" target="_blank" rel="noopener noreferrer">上述 CodePen 中<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>以测试其外观）。或通过添加完全禁用过渡<code>hideAnimationDuration:0, showAnimationDuration:0</code>。<a href="https://photoswipe.com/documentation/faq.html#different-thumbnail-dimensions" target="_blank" rel="noopener noreferrer">有关此的更多信息，请参见 FAQ<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>。</p> <p>如果要在动画使用过程中“隐藏”小缩略图<code>opacity:0</code>，请不要<code>visibility:hidden</code>或<code>display:none</code>。请勿在动画开始时强行绘制和布局，以免出现延迟。</p> <h3 id="showhideopacity-boolean-false"><a href="#showhideopacity-boolean-false" class="header-anchor">#</a> <code>showHideOpacity</code> <code>boolean</code> <code>false</code></h3> <p>如果设置为，则<code>false</code>背景<code>opacity</code>和图像<code>scale</code>将被动画化（图像不透明度始终为 1）。如果设置为<code>true</code>：根 PhotoSwipe 元素<code>opacity</code>和图像<code>scale</code>将被动画化。</p> <p>要仅启用<code>opacity</code>过渡（不带<code>scale</code>），请不要定义<code>getThumbBoundsFn</code>option。</p> <h3 id="showanimationduration-integer-333"><a href="#showanimationduration-integer-333" class="header-anchor">#</a> <code>showAnimationDuration</code> <code>integer</code> <code>333</code></h3> <p>初始放大过渡持续时间（以毫秒为单位）。设置<code>0</code>为禁用。除了此 JS 选项之外，您还需要在 PhotoSwipe CSS 文件中更改过渡时间：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.pswp--animate_opacity,
+.pswp__bg,
+.pswp__caption,
+.pswp__top-bar,
+.pswp--has_mouse .pswp__button--arrow--left,
+.pswp--has_mouse .pswp__button--arrow--right</span> <span class="token punctuation">{</span>
+  <span class="token property">-webkit-transition</span><span class="token punctuation">:</span> opacity 333ms <span class="token function">cubic-bezier</span><span class="token punctuation">(</span>0.4<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.22<span class="token punctuation">,</span> 1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">transition</span><span class="token punctuation">:</span> opacity 333ms <span class="token function">cubic-bezier</span><span class="token punctuation">(</span>0.4<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.22<span class="token punctuation">,</span> 1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>如果使用的是 Sass，则只需更改<a href="https://github.com/dimsemenov/PhotoSwipe/blob/master/src/css/_main-settings.scss" target="_blank" rel="noopener noreferrer">_main-settings.scss 中的<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>过渡持续时间变量。</p> <h3 id="hideanimationduration-integer-333"><a href="#hideanimationduration-integer-333" class="header-anchor">#</a> <code>hideAnimationDuration</code> <code>integer</code> <code>333</code></h3> <p>与上一个选项相同，仅用于关闭（缩小）过渡。打开 PhotoSwipe 后，会将<code>pswp--open</code>类添加到根元素，您可以使用它在 CSS 中应用不同的过渡持续时间。</p> <h3 id="bgopacity-number-1"><a href="#bgopacity-number-1" class="header-anchor">#</a> <code>bgOpacity</code> <code>number</code> <code>1</code></h3> <p>背景（<code>.pswp__bg</code>）不透明度。应为 0 到 1 之间的数字，例如<code>0.7</code>。此样式是通过 JS 而不是 CSS 定义的，因为此值用于一些基于手势的过渡。</p> <h3 id="spacing-number-0-12"><a href="#spacing-number-0-12" class="header-anchor">#</a> <code>spacing</code> <code>number</code> <code>0.12</code></h3> <p>幻灯片之间的间距比。例如，<code>0.12</code>将渲染为滑动视口宽度的 12％（四舍五入）。</p> <h3 id="allowpantonext-boolean-true"><a href="#allowpantonext-boolean-true" class="header-anchor">#</a> <code>allowPanToNext</code> <code>boolean</code> <code>true</code></h3> <p>当当前项目放大时，允许滑动到下一个/上一个项目。选件始终<code>false</code>在不支持硬件触摸的设备上。</p> <h3 id="maxspreadzoom-number-2"><a href="#maxspreadzoom-number-2" class="header-anchor">#</a> <code>maxSpreadZoom</code> <code>number</code> <code>2</code></h3> <p>执行展开（缩放）手势时的最大缩放级别。<code>2</code>表示可以将图像放大到原始尺寸的 2 倍。此处尽量避免使用太大的值，因为太大的图像可能会导致移动设备上的内存问题（尤其是在 iOS 上）。</p> <h3 id="getdoubletapzoom-function"><a href="#getdoubletapzoom-function" class="header-anchor">#</a> <code>getDoubleTapZoom</code> <code>function</code></h3> <p>函数应返回缩放级别，在双击手势后，用户单击缩放图标或鼠标单击图像本身时，图像将缩放到该级别。如果返回，<code>1</code>图像将被缩放到其原始大小。</p> <p>默认值：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token function-variable function">getDoubleTapZoom</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">isMouseClick<span class="token punctuation">,</span> item</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token comment">// isMouseClick          - true if mouse, false if double-tap</span>
+    <span class="token comment">// item                  - slide object that is zoomed, usually current</span>
+    <span class="token comment">// item.initialZoomLevel - initial scale ratio of image</span>
+    <span class="token comment">//                         e.g. if viewport is 700px and image is 1400px,</span>
+    <span class="token comment">//                              initialZoomLevel will be 0.5</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span>isMouseClick<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+        <span class="token comment">// is mouse click on image or zoom icon</span>
+
+        <span class="token comment">// zoom to original</span>
+        <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+        <span class="token comment">// e.g. for 1400px image:</span>
+        <span class="token comment">// 0.5 - zooms to 700px</span>
+        <span class="token comment">// 2   - zooms to 2800px</span>
+
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+
+        <span class="token comment">// is double-tap</span>
+
+        <span class="token comment">// zoom to original if initial zoom is less than 0.7x,</span>
+        <span class="token comment">// otherwise to 1.5x, to make sure that double-tap gesture always zooms image</span>
+        <span class="token keyword">return</span> item<span class="token punctuation">.</span>initialZoomLevel <span class="token operator">&lt;</span> <span class="token number">0.7</span> <span class="token operator">?</span> <span class="token number">1</span> <span class="token operator">:</span> <span class="token number">1.5</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>每次启动放大动画时都会调用该函数。因此，随时可以根据其大小或屏幕 DPI 为不同的图像返回不同的值。</p> <h3 id="loop-boolean-true"><a href="#loop-boolean-true" class="header-anchor">#</a> <code>loop</code> <code>boolean</code> <code>true</code></h3> <p>使用滑动手势时循环滑动。如果设置为<code>true</code>，则可以从最后一张图像滑动到第一张图像。<code>false</code>少于 3 张幻灯片时，总是选择。</p> <p>此选项与箭头导航无关。箭头循环会永久打开。您可以通过制作自定义 UI 来修改此行为。</p> <h3 id="pinchtoclose-boolean-true"><a href="#pinchtoclose-boolean-true" class="header-anchor">#</a> <code>pinchToClose</code> <code>boolean</code> <code>true</code></h3> <p>捏以关闭画廊手势。用户放大时，画廊的背景将逐渐淡出。手势完成后，图库将关闭。</p> <h3 id="closeonscroll-boolean-true"><a href="#closeonscroll-boolean-true" class="header-anchor">#</a> <code>closeOnScroll</code> <code>boolean</code> <code>true</code></h3> <p>在页面滚动上关闭图库。选项仅适用于不支持硬件触摸的设备。</p> <h3 id="closeonverticaldrag-boolean-true"><a href="#closeonverticaldrag-boolean-true" class="header-anchor">#</a> <code>closeOnVerticalDrag</code> <code>boolean</code> <code>true</code></h3> <p>垂直拖动和未缩放图像时，请关闭图库。总是<code>false</code>在使用鼠标时。</p> <h3 id="mouseused-boolean-false"><a href="#mouseused-boolean-false" class="header-anchor">#</a> <code>mouseUsed</code> <code>boolean</code> <code>false</code></h3> <p>Option 允许您预定义是否使用鼠标。某些 PhotoSwipe 功能依赖于此功能，例如，仅在使用鼠标后才会显示默认的 UI 左/右箭头。如果设置为<code>false</code>，则 PhotoSwipe 将开始检测自身是否使用<code>mouseUsed</code>鼠标，并在找到鼠标时触发事件。</p> <h3 id="esckey-boolean-true"><a href="#esckey-boolean-true" class="header-anchor">#</a> <code>escKey</code> <code>boolean</code> <code>true</code></h3> <p><code>esc</code>键盘键以关闭 PhotoSwipe。可以动态更改选项（<code>yourPhotoSwipeInstance.options.escKey = false;</code>）。</p> <h3 id="arrowkeys-boolean-true"><a href="#arrowkeys-boolean-true" class="header-anchor">#</a> <code>arrowKeys</code> <code>boolean</code> <code>true</code></h3> <p>键盘向左或向右箭头键导航。可以动态更改选项（<code>yourPhotoSwipeInstance.options.arrowKeys = false;</code>）。</p> <h3 id="history-boolean-true"><a href="#history-boolean-true" class="header-anchor">#</a> <code>history</code> <code>boolean</code> <code>true</code></h3> <p>如果设置为<code>false</code>禁用历史记录模块（返回按钮关闭图库，每张幻灯片的唯一 URL）。您也可以<code>history.js</code>从构建中排除模块。</p> <h3 id="galleryuid-integer-1"><a href="#galleryuid-integer-1" class="header-anchor">#</a> <code>galleryUID</code> <code>integer</code> <code>1</code></h3> <p>画廊的唯一 ID。形成 URL 时由“历史记录”模块使用。例如，UID 1 画廊的第二张照片将有网址：<code>http://example.com/#&amp;gid=1&amp;pid=2</code>。</p> <h3 id="gallerypids-boolean-false"><a href="#gallerypids-boolean-false" class="header-anchor">#</a> <code>galleryPIDs</code> <code>boolean</code> <code>false</code></h3> <p>为形成 URL 时使用的每个幻灯片对象启用自定义 ID。如果将选项设置为<code>true</code>，则幻灯片对象必须具有<code>pid</code>（图片标识符）属性，该属性可以是字符串或整数。例如：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> slides <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        src<span class="token operator">:</span> <span class="token string">'path/to/1.jpg'</span><span class="token punctuation">,</span>
+        w<span class="token operator">:</span><span class="token number">500</span><span class="token punctuation">,</span>
+        h<span class="token operator">:</span><span class="token number">400</span><span class="token punctuation">,</span>
+        pid<span class="token operator">:</span> <span class="token string">'image-one'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        src<span class="token operator">:</span> <span class="token string">'path/to/2.jpg'</span><span class="token punctuation">,</span>
+        w<span class="token operator">:</span><span class="token number">300</span><span class="token punctuation">,</span>
+        h<span class="token operator">:</span><span class="token number">700</span><span class="token punctuation">,</span>
+        pid<span class="token operator">:</span> <span class="token string">'image-two'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+    <span class="token operator">...</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre></div><p>...第二张幻灯片将具有 URL <code>http://example.com/#&amp;gid=1&amp;pid=image-two</code>。</p> <p>在<a href="https://photoswipe.com/documentation/faq.html#custom-pid-in-url" target="_blank" rel="noopener noreferrer">FAQ 部分中<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>了解有关如何实现自定义 PID 的更多信息。</p> <h3 id="errormsg-string"><a href="#errormsg-string" class="header-anchor">#</a> <code>errorMsg</code> <code>string</code></h3> <p>未加载图像时的错误消息。<code>%url%</code>将被替换为图片的网址。</p> <p>默认值：</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>pswp__error-msg<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>%url%<span class="token punctuation">&quot;</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>_blank<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>The image<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span> could not be loaded.
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="preload-array-1-1"><a href="#preload-array-1-1" class="header-anchor">#</a> <code>preload</code> <code>array</code> <code>[1,1]</code></h3> <p>根据移动方向延迟加载附近的幻灯片。应为包含两个整数的数组，第一个-当前图像之前要预加载的项目数，第二个-当前图像之后要预加载的项目数。例如，如果将其设置为[1,3]，它将在当前图像之前加载 1 张图像，在当前图像之后加载 3 张图像。值不能小于 1。</p> <h3 id="mainclass-string-undefined"><a href="#mainclass-string-undefined" class="header-anchor">#</a> <code>mainClass</code> <code>string</code> <code>undefined</code></h3> <p>具有类名称的字符串，该名称将添加到 PhotoSwipe（<code>.pswp</code>）的根元素中。可以包含多个由空格分隔的类。</p> <h3 id="getnumitemsfn-function"><a href="#getnumitemsfn-function" class="header-anchor">#</a> <code>getNumItemsFn</code> <code>function</code></h3> <p>该函数应返回画廊中的物品总数。默认情况下，它返回幻灯片数组的长度。不要在这里放置非常复杂的代码，函数经常执行。</p> <h3 id="focus-boolean-true"><a href="#focus-boolean-true" class="header-anchor">#</a> <code>focus</code> <code>boolean</code> <code>true</code></h3> <p>打开后，将焦点放在 PhotoSwipe 元素上。</p> <h3 id="isclickableelement-function"><a href="#isclickableelement-function" class="header-anchor">#</a> <code>isClickableElement</code> <code>function</code></h3> <p>默认值：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token function-variable function">isClickableElement</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">el</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> el<span class="token punctuation">.</span>tagName <span class="token operator">===</span> <span class="token string">'A'</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>函数应检查元素（<code>el</code>）是否可单击。如果是– PhotoSwipe 将不会调用<code>preventDefault</code>，<code>click</code>事件将会通过。功能应尽可能轻巧，因为它在拖动开始和拖动释放时执行了多次。</p> <h3 id="modal-boolean-true"><a href="#modal-boolean-true" class="header-anchor">#</a> <code>modal</code> <code>boolean</code> <code>true</code></h3> <p>控制 PhotoSwipe 是否应扩展以占据整个视口。如果为 false，则 PhotoSwipe 元素将采用模板所定位父对象的大小。</p> <h2 id="默认-ui-选项"><a href="#默认-ui-选项" class="header-anchor">#</a> 默认 UI 选项</h2> <p>被加到以同样的方式和相同的对象为核心的选项。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// Size of top &amp; bottom bars in pixels,</span>
+<span class="token comment">// &quot;bottom&quot; parameter can be 'auto' (will calculate height of caption)</span>
+<span class="token comment">// option applies only when mouse is used,</span>
+<span class="token comment">// or width of screen is more than 1200px</span>
+<span class="token comment">//</span>
+<span class="token comment">// (Also refer to `parseVerticalMargin` event)</span>
+barsSize<span class="token operator">:</span> <span class="token punctuation">{</span>top<span class="token operator">:</span><span class="token number">44</span><span class="token punctuation">,</span> bottom<span class="token operator">:</span><span class="token string">'auto'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Adds class pswp__ui--idle to pswp__ui element when mouse isn't moving for 4000ms</span>
+timeToIdle<span class="token operator">:</span> <span class="token number">4000</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Same as above, but this timer applies when mouse leaves the window</span>
+timeToIdleOutside<span class="token operator">:</span> <span class="token number">1000</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Delay until loading indicator is displayed</span>
+loadingIndicatorDelay<span class="token operator">:</span> <span class="token number">1000</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Function builds caption markup</span>
+<span class="token function-variable function">addCaptionHTMLFn</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">item<span class="token punctuation">,</span> captionEl<span class="token punctuation">,</span> isFake</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// item      - slide object</span>
+    <span class="token comment">// captionEl - caption DOM element</span>
+    <span class="token comment">// isFake    - true when content is added to fake caption container</span>
+    <span class="token comment">//             (used to get size of next or previous caption)</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>item<span class="token punctuation">.</span>title<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        captionEl<span class="token punctuation">.</span>children<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    captionEl<span class="token punctuation">.</span>children<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> item<span class="token punctuation">.</span>title<span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Buttons/elements</span>
+closeEl<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+captionEl<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+fullscreenEl<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+zoomEl<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+shareEl<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+counterEl<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+arrowEl<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+preloaderEl<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Tap on sliding area should close gallery</span>
+tapToClose<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Tap should toggle visibility of controls</span>
+tapToToggleControls<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Mouse click on image should close the gallery,</span>
+<span class="token comment">// only when image is smaller than size of the viewport</span>
+clickToCloseNonZoomable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Element classes click on which should close the PhotoSwipe.</span>
+<span class="token comment">// In HTML markup, class should always start with &quot;pswp__&quot;, e.g.: &quot;pswp__item&quot;, &quot;pswp__caption&quot;.</span>
+<span class="token comment">//</span>
+<span class="token comment">// &quot;pswp__ui--over-close&quot; class will be added to root element of UI when mouse is over one of these elements</span>
+<span class="token comment">// By default it's used to highlight the close button.</span>
+closeElClasses<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'item'</span><span class="token punctuation">,</span> <span class="token string">'caption'</span><span class="token punctuation">,</span> <span class="token string">'zoom-wrap'</span><span class="token punctuation">,</span> <span class="token string">'ui'</span><span class="token punctuation">,</span> <span class="token string">'top-bar'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Separator for &quot;1 of X&quot; counter</span>
+indexIndicatorSep<span class="token operator">:</span> <span class="token string">' / '</span><span class="token punctuation">,</span>
+
+
+
+<span class="token comment">// Next 3 functions return data for share links</span>
+<span class="token comment">//</span>
+<span class="token comment">// functions are triggered after click on button that opens share modal,</span>
+<span class="token comment">// which means that data should be about current (active) slide</span>
+<span class="token function-variable function">getImageURLForShare</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span> <span class="token parameter">shareButtonData</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// `shareButtonData` - object from shareButtons array</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// `pswp` is the gallery instance object,</span>
+    <span class="token comment">// you should define it by yourself</span>
+    <span class="token comment">//</span>
+    <span class="token keyword">return</span> pswp<span class="token punctuation">.</span>currItem<span class="token punctuation">.</span>src <span class="token operator">||</span> <span class="token string">''</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token function-variable function">getPageURLForShare</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span> <span class="token parameter">shareButtonData</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>href<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token function-variable function">getTextForShare</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span> <span class="token parameter">shareButtonData</span> <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> pswp<span class="token punctuation">.</span>currItem<span class="token punctuation">.</span>title <span class="token operator">||</span> <span class="token string">''</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// Parse output of share links</span>
+<span class="token function-variable function">parseShareButtonOut</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">shareButtonData<span class="token punctuation">,</span> shareButtonOut</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// `shareButtonData` - object from shareButtons array</span>
+    <span class="token comment">// `shareButtonOut` - raw string of share link element</span>
+    <span class="token keyword">return</span> shareButtonOut<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div id="vcomments"></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">4/3/2020, 12:20:01 AM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/vue-photo-swiper-docs/assets/js/app.b4484480.js" defer></script><script src="/vue-photo-swiper-docs/assets/js/2.eacc73ec.js" defer></script><script src="/vue-photo-swiper-docs/assets/js/9.a882c025.js" defer></script><script src="/vue-photo-swiper-docs/assets/js/3.532ee173.js" defer></script>
+  </body>
+</html>
